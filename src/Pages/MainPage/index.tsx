@@ -1,7 +1,8 @@
 import React from "react"
-import Header from "../../Components/Header"
-import News from "../../Components/News"
-import Footer from "../../Components/Footer"
+import Header from "../../components/Header"
+import News from "../../components/News"
+import Footer from "../../components/Footer"
+import './MainPage.scss';
 
 
 const MainPage = () => {
