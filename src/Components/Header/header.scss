@@ -1,0 +1,18 @@
+.header{
+    height: 60px;
+    display: flex;
+    margin-top: 30px;
+    background-color: #6c0e6c;
+
+    &_menu{
+        padding: 0 0 0 970px;
+        display: flex;
+
+        &_span{
+           margin: 20px 0 0 20px;
+            text-decoration: none;
+            text-align: center;
+            color: white;
+        }
+    }
+}

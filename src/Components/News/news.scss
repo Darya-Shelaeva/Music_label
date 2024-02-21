@@ -1,0 +1,42 @@
+.news{
+    display: flex;
+    box-sizing: border-box;
+
+    
+
+    &_item{
+        width: 600px;
+        height: 650px;
+        border: 1px solid white;
+        position: relative;
+
+
+        &_button{
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            border-radius: 7%;
+            cursor: pointer;
+            background-color: transparent;
+            color: white;
+            margin: 10px 0 0 10px;
+        }
+        }
+
+    &_afisha{
+        background-image: url(../../../public/img/afisha.JPG);
+        background-size: cover;
+        background-position: center;
+    }
+    &_news{
+        background-image: url(../../../public/img/news.JPG);
+        background-size: cover;
+        background-position: center;
+    }
+    &_relise{
+        background-image: url(../../../public/img/relise.JPG);
+        background-size: cover;
+        background-position: center;
+    }
+    
+}

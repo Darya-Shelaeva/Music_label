@@ -7,11 +7,14 @@ import './MainPage.scss';
 
 const MainPage = () => {
     return (
+        <div className="container">
         <div>
             <Header></Header>
             <News></News>
             <Footer></Footer>
         </div>
+        </div>
+
     )
 }
 

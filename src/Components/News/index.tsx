@@ -3,12 +3,15 @@ import './News.scss';
 
 const News = () => {
     return (
-        <div>
-            <span>Новости</span>
-            <div>
-                <img src="" alt="Концерт" />
-                <img src="" alt="Новость" />
-                <img src="" alt="Релиз" />
+        <div className="news">
+            <div className="news_item news_afisha">
+                <button className="news_item_button"><h3>Концерты</h3></button>
+             </div>
+            <div className="news_item news_news">
+                <button className="news_item_button"><h3>Новости</h3></button>
+            </div>
+            <div className="news_item news_relise">
+                <button className="news_item_button"><h3>Релизы</h3></button>
             </div>
         </div>
     )
