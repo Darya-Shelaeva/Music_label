@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    font-family: "Josefin Sans", sans-serif;
+    gap: 300px;
+    
+
+    &_contacts{
+       // display: block;
+
+    }
+
+    &_data{
+        //display: block;
+    }
+
+    &_socials{
+        //flex-direction: column;
+    }
+}

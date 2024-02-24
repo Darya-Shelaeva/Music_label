@@ -1,20 +1,22 @@
 import React from "react";
 import './Footer.scss';
+import '../../index';
 
 const Footer = () => {
     return (
-        <div>
-            <div>
-            <span>Контакты</span>
-            <span>Адрес</span>
+        <div className="container">
+            <div className="container_contacts">
+            <p className="text">Контакты</p>
+            <p>E-mail</p>
             </div>
-            <div>
-            <span>+7-495-204-24-50</span>
-            <span>info@musiclabel.ru</span>
+            <div className="container_data">
+            <p>+7-495-204-24-50</p>
+            <p>info@musiclabel.ru</p>
             </div>
-            <div>
-            <img src="" alt="vk" />
-            <img src="" alt="facebook" />
+            <div className="container_socials">
+                <p><img src="" alt="vk" /></p>
+                <p><img src="" alt="facebook" /></p>
+            
             </div>
         </div>
     )
