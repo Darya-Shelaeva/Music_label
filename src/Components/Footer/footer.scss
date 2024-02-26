@@ -5,8 +5,12 @@
     
 
     &_contacts{
-       // display: block;
+       
 
+       &_con{
+        text-decoration: none;
+        color: white;
+       }
     }
 
     &_data{

@@ -1,12 +1,14 @@
 import React from "react";
 import './Footer.scss';
-import '../../index';
+import { Link } from "react-router-dom";
+
 
 const Footer = () => {
     return (
         <div className="container">
             <div className="container_contacts">
-            <p className="text">Контакты</p>
+                <Link className="container_contacts_con" to={"/contacts"}><p className="text">Контакты</p></Link>
+            
             <p>E-mail</p>
             </div>
             <div className="container_data">

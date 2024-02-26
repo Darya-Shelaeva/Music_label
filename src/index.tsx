@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainPage from './pages/MainPage/';
-import './App.scss'
-
+import './App.scss';
+import './reset.scss';
+import Contacts from './pages/Contacts';
 
 
 
@@ -18,7 +19,10 @@ const root = ReactDOM.createRoot(
       path: "/",
       element: <MainPage />,
     },
-   
+    {
+      path: "/",
+      element: <Contacts />,
+    },
   ]);
   
 
