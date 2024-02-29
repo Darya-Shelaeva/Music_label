@@ -20,7 +20,7 @@ const root = ReactDOM.createRoot(
       element: <MainPage />,
     },
     {
-      path: "/",
+      path: "contacts",
       element: <Contacts />,
     },
   ]);
