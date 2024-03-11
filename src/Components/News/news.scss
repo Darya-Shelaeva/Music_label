@@ -4,14 +4,14 @@
 
     
 
-    &_item{
+    &__item{
         width: 600px;
         height: 650px;
         border: 1px solid white;
         position: relative;
 
 
-        &_button{
+        &__button{
             width: 100px;
             height: 50px;
             text-align: center;
@@ -23,17 +23,17 @@
         }
         }
 
-    &_afisha{
+    &__afisha{
         background-image: url(../../../public/img/afisha.JPG);
         background-size: cover;
         background-position: center;
     }
-    &_news{
+    &__news{
         background-image: url(../../../public/img/news.JPG);
         background-size: cover;
         background-position: center;
     }
-    &_relise{
+    &__relise{
         background-image: url(../../../public/img/relise.JPG);
         background-size: cover;
         background-position: center;

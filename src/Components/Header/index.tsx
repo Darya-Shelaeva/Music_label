@@ -7,23 +7,23 @@ const Header = () => {
     return (
         <div className="header">
             <div>Logo</div>
-            <div className="header_menu">
-            <Link className="header_menu_span" to={'/artists'}>
+            <div className="header__menu">
+            <Link className="header__menu__span" to={'/artists'}>
                 <span>Артисты</span>
             </Link>
-            <Link className="header_menu_span" to={'/products'}>
+            <Link className="header__menu__span" to={'/products'}>
                 <span>Продукты</span>
             </Link>
-            <Link className="header_menu_span" to={'/live'}>
+            <Link className="header__menu__span" to={'/live'}>
                 <span>Лайв шоу</span>
             </Link>
-            <Link className="header_menu_span" to={'/tracks'}>
+            <Link className="header__menu__span" to={'/tracks'}>
                 <span>Треки</span>
             </Link>
-            <Link className="header_menu_span" to={'/credits'}>
+            <Link className="header__menu__span" to={'/credits'}>
                 <span>Кредиты</span>
             </Link>
-            <Link className="header_menu_span" to={'/about'}>
+            <Link className="header__menu__span" to={'/about'}>
                 <span>О нас</span>
             </Link>
 

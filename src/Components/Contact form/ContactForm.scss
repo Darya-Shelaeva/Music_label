@@ -5,12 +5,12 @@
     text-align: center;
 
 
-    &_write{
+    &__write{
         font-family: "Josefin Sans", sans-serif;
         margin-top: 30px;
     }
 
-    &_text{
+    &__text{
         margin-top: 30px;
         width: 700px;
         height: 300px;
@@ -18,7 +18,7 @@
         font-size: 16px;
     }
 
-    &_button{
+    &__button{
         width: 100px;
         height: 30px;
         margin-top: 20px;
