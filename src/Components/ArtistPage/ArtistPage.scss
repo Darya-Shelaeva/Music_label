@@ -1,0 +1,11 @@
+.artistContainer{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 50px;
+
+    &__name{
+    text-align: center;
+    border: none;
+    }
+}
