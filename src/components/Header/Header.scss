@@ -5,11 +5,11 @@
     background-color: #6c0e6c;
 
     &__menu{
-        padding: 0 0 0 970px;
+        padding: 0 0 0 900px;
         display: flex;
 
         &__span{
-           margin: 20px 0 0 20px;
+           margin: 20px 10px 0 20px;
             text-decoration: none;
             font-family: "Josefin Sans", sans-serif;
             text-align: center;
@@ -28,6 +28,7 @@
 
         &__span{
             margin-left: 5px;
+            font-size: 10px;
         }
     }
 
