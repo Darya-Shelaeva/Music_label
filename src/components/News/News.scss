@@ -24,16 +24,19 @@
         }
 
     &__afisha{
+        
         background-image: url(../../../public/img/afisha.JPG);
         background-size: cover;
         background-position: center;
     }
     &__news{
+        
         background-image: url(../../../public/img/news.JPG);
         background-size: cover;
         background-position: center;
     }
     &__relise{
+        
         background-image: url(../../../public/img/relise.JPG);
         background-size: cover;
         background-position: center;
@@ -46,10 +49,10 @@
         flex-wrap: wrap;
     }
 
-   .news__item{
+  /* .news__item{
         width: 300px;
         height: 350px;
-    }
+    }*/
 
 
     }

@@ -1,7 +1,6 @@
 .container{
     margin: 0 auto;
-
-    &_item{
-        align-items: center;
-    }
+    display: block;
+    align-items: center;
+    
 }
